@@ -11,7 +11,7 @@
         </Grid.RowDefinitions>
 
         <!-- Toolbar -->
-        <StackPanel Orientation="Horizontal" Background="LightGray">
+        <StackPanel x:Name="Toolbar" Orientation="Horizontal" Background="LightGray">
             <Button Content="Open" Width="75" Margin="5" Click="BtnOpen_Click"/>
             <Button Content="Save" Width="75" Margin="5" Click="BtnSave_Click"/>
             <Button Content="Save As" Width="75" Margin="5" Click="BtnSaveAs_Click"/>

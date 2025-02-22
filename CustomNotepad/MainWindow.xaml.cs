@@ -73,6 +73,7 @@ namespace CustomNotepad
                 TxtEditor.Background = Brushes.DarkSlateGray;
                 TxtEditor.Foreground = Brushes.White;
                 TxtEditor.CaretBrush = Brushes.White;
+                Toolbar.Background = Brushes.DarkSlateBlue; 
                 isDarkMode = true;
             }
             else
@@ -81,6 +82,7 @@ namespace CustomNotepad
                 TxtEditor.Background = Brushes.White;
                 TxtEditor.Foreground = Brushes.Black;
                 TxtEditor.CaretBrush = Brushes.Black;
+                Toolbar.Background = Brushes.LightGray;
                 isDarkMode = false;
             }
         }
