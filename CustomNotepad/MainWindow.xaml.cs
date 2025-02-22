@@ -56,7 +56,7 @@ namespace CustomNotepad
             {
                 File.WriteAllText(saveFileDialog.FileName, TxtEditor.Text);
                 currentFilePath = saveFileDialog.FileName;
-                Title = $"Ultralight Notepad - {Path.GetFileName(currentFilePath)}";
+                Title = $"Ultralight Notes - {Path.GetFileName(currentFilePath)}";
             }
         }
 
