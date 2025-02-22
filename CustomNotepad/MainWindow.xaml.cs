@@ -70,7 +70,7 @@ namespace CustomNotepad
             if (!isDarkMode)
             {
                 Background = Brushes.Black;
-                TxtEditor.Background = Brushes.Black;
+                TxtEditor.Background = Brushes.DarkSlateGray;
                 TxtEditor.Foreground = Brushes.White;
                 TxtEditor.CaretBrush = Brushes.White;
                 isDarkMode = true;
